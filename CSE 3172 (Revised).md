@@ -142,6 +142,16 @@ Build a complete mobile version of the Meal Explorer application built in CSE 22
 
 **Assessment:** Students demo the live app on a physical device or emulator (all four screens functional), present their EAS build artefact, and submit the complete lab notebook covering Labs 1–10.
 
+> **Alternative Final Projects:** Students may choose one of the following in place of the Meal Explorer. All alternatives mirror the same apps from CSE 2232 but rebuilt natively in React Native — reinforcing the "same logic, different platform" principle. All require the same four-screen structure (browse → filter → detail → favourites), Stack + Tab Navigation, AsyncStorage, and an EAS APK build.
+
+| Project | API | Auth Required | Mobile-Specific Feature vs. CSE 2232 Web Version |
+|---------|-----|:-------------:|---------------------------------------------------|
+| **Country Explorer** | [REST Countries](https://restcountries.com/) | No | Tap a bordering country on the Details screen to navigate directly to its detail; use `expo-location` to highlight the user's own country on launch |
+| **Movie Explorer** | [OMDb API](https://www.omdbapi.com/) | Free API key | Search-driven entry (TextInput + FlatList); save watchlist to AsyncStorage; open trailer via `Linking.openURL` |
+| **Music Explorer** | [iTunes Search API](https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/) | No | 30-second track preview using `expo-av` (`Audio.Sound`) — replaces the web `<audio>` tag with native audio playback |
+
+Regardless of project choice, all technical requirements above (Tab + Stack Navigator, `ActivityIndicator`, pull-to-refresh, AsyncStorage favourites, accessibility labels, EAS APK build) apply.
+
 ---
 
 ## Textbook
