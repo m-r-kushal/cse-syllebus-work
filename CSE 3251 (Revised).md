@@ -99,6 +99,8 @@ Students will be assessed on the basis of their overall performance across all c
 - Backend-as-a-Service (BaaS) and serverless concepts: AWS Lambda, Firebase
 
 ### Week 8 — Web App Security I: Attack Vectors
+**Primary text:** Malcolm McDonald, *Web Security for Developers: Real Threats, Practical Defense*
+
 - OWASP Top 10 overview: understanding the threat landscape
 - **Injection attacks:** SQL Injection — anatomy of an attack, parameterised queries, ORMs as defence
 - **Cross-Site Scripting (XSS):** reflected, stored, and DOM-based XSS; output encoding; Content Security Policy (CSP)
@@ -107,6 +109,8 @@ Students will be assessed on the basis of their overall performance across all c
 - **Insecure Direct Object References (IDOR):** access control validation
 
 ### Week 9 — Web App Security II: Authentication, Transport, and Defence
+**Primary text:** Malcolm McDonald, *Web Security for Developers: Real Threats, Practical Defense*
+
 - **Authentication vulnerabilities:** weak passwords, credential stuffing, brute-force attacks; multi-factor authentication
 - **Session management:** session hijacking, session fixation; secure session configuration (HttpOnly, Secure, SameSite flags)
 - **Password storage:** plaintext dangers; hashing with bcrypt/Argon2; salting
