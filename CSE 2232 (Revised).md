@@ -26,8 +26,8 @@ This laboratory course gives students hands-on experience in building web-based 
 | CO No. | CO Statement | Corresponding PO | Domain / Level of Learning Taxonomy | Delivery Methods & Activities | Assessment Tools |
 |--------|-------------|------------------|--------------------------------------|-------------------------------|-----------------|
 | CO1 | To **apply** UI/UX design principles and HTML/CSS to build accessible, well-structured, and visually consistent web pages | Design/Development of Solutions (PO3) | Cognitive domain – Level 3 | ☐ Lecture Note ☒ Text Book ☐ Audio/Video ☒ Web Material ☒ Lab Manual | ☒ CA ☐ Final Exam ☒ Assignment ☒ Notebook ☒ Presentation |
-| CO2 | To **build** interactive, responsive, and validated UI components using JavaScript and a CSS framework (Bootstrap / Tailwind CSS) | Modern Tool Usage (PO5) | Cognitive domain – Level 4 | ☐ Lecture Note ☒ Text Book ☐ Audio/Video ☒ Web Material ☒ Lab Manual | ☒ CA ☐ Final Exam ☒ Assignment ☒ Notebook ☒ Presentation |
-| CO3 | To **develop** a React.js web application that consumes public REST APIs via the Fetch API to present dynamic, data-driven content | Modern Tool Usage (PO5) | Cognitive domain – Level 5 | ☐ Lecture Note ☒ Text Book ☐ Audio/Video ☒ Web Material ☒ Lab Manual | ☒ CA ☒ Final Exam ☒ Assignment ☒ Notebook ☒ Presentation |
+| CO2 | To **build** interactive, responsive, and validated UI components using JavaScript and a CSS framework (Bootstrap / Tailwind CSS) | Modern Tool Usage (PO5) | Cognitive domain – Level 6 | ☐ Lecture Note ☒ Text Book ☐ Audio/Video ☒ Web Material ☒ Lab Manual | ☒ CA ☐ Final Exam ☒ Assignment ☒ Notebook ☒ Presentation |
+| CO3 | To **develop** a React.js web application that consumes public REST APIs via the Fetch API to present dynamic, data-driven content | Modern Tool Usage (PO5) | Cognitive domain – Level 6 | ☐ Lecture Note ☒ Text Book ☐ Audio/Video ☒ Web Material ☒ Lab Manual | ☒ CA ☒ Final Exam ☒ Assignment ☒ Notebook ☒ Presentation |
 
 ---
 

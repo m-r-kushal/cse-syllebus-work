@@ -26,8 +26,8 @@ This laboratory course introduces students to cross-platform mobile application 
 | CO No. | CO Statement | Corresponding PO | Domain / Level of Learning Taxonomy | Delivery Methods & Activities | Assessment Tools |
 |--------|-------------|------------------|--------------------------------------|-------------------------------|-----------------|
 | CO1 | To **set up** a React Native / Expo project and **translate** existing React.js knowledge (components, props, state, hooks) into mobile-native UI components and layouts | Modern Tool Usage (PO5) | Cognitive domain – Level 3 | ☐ Lecture Note ☒ Text Book ☐ Audio/Video ☒ Web Material ☒ Lab Manual | ☒ CA ☐ Final Exam ☒ Assignment ☒ Notebook ☒ Presentation |
-| CO2 | To **build** multi-screen mobile applications using React Navigation and integrate device APIs (camera, location, notifications, local storage) | Modern Tool Usage (PO5) | Cognitive domain – Level 4 | ☐ Lecture Note ☒ Text Book ☐ Audio/Video ☒ Web Material ☒ Lab Manual | ☒ CA ☐ Final Exam ☒ Assignment ☒ Notebook ☒ Presentation |
-| CO3 | To **develop and build** a complete data-driven React Native application using the Fetch API and produce a distributable APK/IPA using EAS Build | Design/Development of Solutions (PO3) | Cognitive domain – Level 5 | ☐ Lecture Note ☒ Text Book ☐ Audio/Video ☒ Web Material ☒ Lab Manual | ☒ CA ☒ Final Exam ☒ Assignment ☒ Notebook ☒ Presentation |
+| CO2 | To **build** multi-screen mobile applications using React Navigation and integrate device APIs (camera, location, notifications, local storage) | Modern Tool Usage (PO5) | Cognitive domain – Level 6 | ☐ Lecture Note ☒ Text Book ☐ Audio/Video ☒ Web Material ☒ Lab Manual | ☒ CA ☐ Final Exam ☒ Assignment ☒ Notebook ☒ Presentation |
+| CO3 | To **develop and build** a complete data-driven React Native application using the Fetch API and produce a distributable APK/IPA using EAS Build | Design/Development of Solutions (PO3) | Cognitive domain – Level 6 | ☐ Lecture Note ☒ Text Book ☐ Audio/Video ☒ Web Material ☒ Lab Manual | ☒ CA ☒ Final Exam ☒ Assignment ☒ Notebook ☒ Presentation |
 
 ---
 
