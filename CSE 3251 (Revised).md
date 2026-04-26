@@ -13,11 +13,11 @@
 
 ## Motivation
 
-Web applications have become the dominant software delivery platform, serving billions of users across devices and geographies. Building reliable, secure, and scalable web systems requires more than programming skill — it demands a disciplined engineering approach. This course provides that framework: from requirements analysis and architectural design, through RESTful API design, web security, and testing, to the operational concerns of scalability, containerisation, and continuous delivery that govern production systems today.
+Web applications are now a dominant software platform, serving users across devices and networks. Developing secure, scalable, and maintainable web systems requires a disciplined engineering approach. This course introduces that approach by combining foundational web engineering concepts with modern topics such as API design, security, scalability, containerisation, and CI/CD.
 
 ## Course Objective
 
-This course introduces students to the discipline of Web Engineering as a systematic, measurable, and repeatable process for developing high-quality web applications. The course begins with foundational concepts drawn from classical Web Engineering topics such as web-based systems, the web engineering process, communication, planning, and modelling activity, and then extends into REST API design, modern architecture, web security, testing, scalability, containerisation, and CI/CD pipelines. The companion lab course (CSE 3252) provides hands-on implementation in Express.js, AdonisJS, and/or Laravel.
+This course introduces Web Engineering as a systematic process for designing, analysing, and evaluating modern web applications. Students will study foundational web engineering concepts, REST API design, modern web architecture, web security, testing, scalability, containerisation, and CI/CD practices. The companion lab course (CSE 3252) provides hands-on implementation using Express.js, AdonisJS, and/or Laravel.
 
 ---
 
