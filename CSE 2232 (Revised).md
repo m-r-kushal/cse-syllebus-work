@@ -35,7 +35,7 @@ This laboratory course gives students hands-on experience in building web-based 
 
 Students will be assessed on the basis of their overall performance across all lab exercises, assignments, and the final lab examination.
 
-| Component | Weightage |
+| Component |  |
 |---|---|
 | Continuous Assessments (CA) — lab exercises and assignments throughout the semester | 20% |
 | Comprehensive Final Exam + Lab Notebook | 70% |

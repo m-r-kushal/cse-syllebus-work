@@ -6,7 +6,7 @@
 | **Contact Hours** | 42 |
 | **Year** | Third |
 | **Semester** | Second |
-| **Prerequisites** | CSE 2232: User Interface Development Lab &nbsp;·&nbsp; Computer Networks |
+| **Prerequisites** | CSE 2232: User Interface Development Lab &nbsp;·&nbsp; CSEXXXX: Computer Networks |
 | **Course Type** | ☒ Theory &nbsp;&nbsp; ☐ Laboratory work &nbsp;&nbsp; ☐ Project work &nbsp;&nbsp; ☐ Viva Voce |
 
 ---
@@ -17,7 +17,7 @@ Web applications have become the dominant software delivery platform, serving bi
 
 ## Course Objective
 
-This course introduces students to the discipline of Web Engineering as a systematic, measurable, and repeatable process for developing high-quality web applications. Students will study web engineering methodologies for analysis and design; REST API and modern architecture principles; the OWASP security threat model and practical defences; web application testing strategies; and modern infrastructure concepts including scalability patterns, Docker containerisation, and CI/CD pipelines. The companion lab course (CSE 3252) provides hands-on implementation in Express.js, AdonisJS, and/or Laravel.
+This course introduces students to the discipline of Web Engineering as a systematic, measurable, and repeatable process for developing high-quality web applications. The course begins with foundational concepts drawn from classical Web Engineering topics such as web-based systems, the web engineering process, communication, planning, and modelling activity, and then extends into REST API design, modern architecture, web security, testing, scalability, containerisation, and CI/CD pipelines. The companion lab course (CSE 3252) provides hands-on implementation in Express.js, AdonisJS, and/or Laravel.
 
 ---
 
@@ -25,10 +25,10 @@ This course introduces students to the discipline of Web Engineering as a system
 
 | CO No. | CO Statement | Corresponding PO | Domain / Level of Learning Taxonomy | Delivery Methods & Activities | Assessment Tools |
 |--------|-------------|------------------|--------------------------------------|-------------------------------|-----------------|
-| CO1 | To **analyse** web engineering methodologies — including requirements analysis, architectural design, and testing strategies — for the systematic development of web applications | Engineering Knowledge (PO1), Problem Analysis (PO2) | Cognitive domain – Level 4 | ☒ Lecture Note ☒ Text Book ☐ Audio/Video ☒ Web Material ☒ Journal paper | ☒ Class Test ☒ Final Exam ☐ Assignment ☐ Participation ☐ Presentation |
-| CO2 | To **design** RESTful APIs and modern web architectures including Single Page Applications and microservices | Design/Development of Solutions (PO3) | Cognitive domain – Level 6 | ☒ Lecture Note ☒ Text Book ☐ Audio/Video ☒ Web Material ☐ Journal paper | ☒ Class Test ☒ Final Exam ☐ Assignment ☐ Participation ☐ Presentation |
-| CO3 | To **analyse and evaluate** security threats in web applications and the corresponding OWASP-based defences, covering injection attacks, authentication flaws, and transport security | Investigation (PO4) | Cognitive domain – Level 5 | ☒ Lecture Note ☒ Text Book ☐ Audio/Video ☒ Web Material ☐ Journal paper | ☒ Class Test ☒ Final Exam ☐ Assignment ☐ Participation ☐ Presentation |
-| CO4 | To **explain and compare** scalability strategies, containerisation with Docker, and CI/CD pipeline concepts for deploying and operating production web systems | Modern Tool Usage (PO5) | Cognitive domain – Level 4 | ☒ Lecture Note ☒ Text Book ☐ Audio/Video ☒ Web Material ☒ Journal paper | ☒ Class Test ☒ Final Exam ☐ Assignment ☐ Participation ☐ Presentation |
+| CO1 | To **analyse** web engineering methodologies — including requirements analysis, architectural design, and testing strategies — for the systematic development of web applications | Engineering Knowledge (PO1), Problem Analysis (PO2) | Cognitive domain – Level 4 | ☒ Lecture Note ☒ Text Book ☐ Audio/Video ☒ Web Material ☒ Journal paper | ☒ Class Test ☒ Final Exam ☒ Assignment ☐ Participation ☐ Presentation |
+| CO2 | To **evaluate** RESTful APIs and modern web architectures including Single Page Applications and microservices | Design/Development of Solutions (PO3) | Cognitive domain – Level 5 | ☒ Lecture Note ☒ Text Book ☐ Audio/Video ☒ Web Material ☐ Journal paper | ☒ Class Test ☒ Final Exam ☒ Assignment ☐ Participation ☐ Presentation |
+| CO3 | To **analyse and evaluate** security threats in web applications and the corresponding web security principles and practical defences, covering injection attacks, authentication flaws, information leaks, and denial of service attacks | Investigation (PO4) | Cognitive domain – Level 5 | ☒ Lecture Note ☒ Text Book ☐ Audio/Video ☒ Web Material ☐ Journal paper | ☒ Class Test ☒ Final Exam ☒ Assignment ☐ Participation ☐ Presentation |
+| CO4 | To **explain and compare** scalability strategies, containerisation with Docker, and CI/CD pipeline concepts for deploying and operating production web systems | Modern Tool Usage (PO5) | Cognitive domain – Level 4 | ☒ Lecture Note ☒ Text Book ☐ Audio/Video ☒ Web Material ☒ Journal paper | ☒ Class Test ☒ Final Exam ☒ Assignment ☐ Participation ☐ Presentation |
 
 ---
 
@@ -46,41 +46,41 @@ Students will be assessed on the basis of their overall performance across all c
 
 ## Course Contents
 
-### Week 1 — Web Engineering Discipline
-- What is Web Engineering? Differences from traditional software engineering
-- Attributes of web-based systems: ubiquity, concurrency, content-driven, continuous evolution
-- Web app engineering layers: process, methods, tools
-- Web engineering process models: incremental, agile-web, spiral
-- Categories of web applications: informational, interactive, transactional, workflow, collaborative, portal, ubiquitous
+### Week 1 — Web-Based Systems and Web Engineering
+- Characteristics of web-based systems: network intensity, concurrency, unpredictability of load, performance sensitivity, content-driven nature, continuous evolution
+- Categories of web applications: informational, interactive, transactional, workflow, collaborative, portal, and service-oriented systems
+- Why Web Engineering is needed: differences from traditional software engineering
+- Web Engineering layers: process, methods, tools, quality focus
+- Course orientation: how theory supports the companion implementation lab
 
-### Week 2 — Web App Project Management
-- Formulating web-based systems: scope, feasibility, resource estimation
-- Planning for web engineering projects: scheduling, risk analysis
-- Building the web engineering team: roles and responsibilities
-- Web app project management: milestones, progress tracking
-- Metrics for web engineering: size metrics, quality metrics, complexity metrics for web apps
+### Week 2 — Web Engineering Process
+- Process models for web development: incremental, agile-web, spiral, and iterative delivery
+- Framework activities in web projects: communication, planning, modelling, construction, deployment
+- Process adaptation for small teams vs. enterprise teams
+- Risk in web projects: volatile requirements, evolving content, rapid release pressure
+- Quality attributes in the process: usability, security, maintainability, scalability
 
-### Week 3 — Requirements Analysis
-- Requirement elicitation for web apps: stakeholder analysis, use cases, user stories
-- Analysis model: data analysis, functional analysis, behavioural analysis
-- Content model: content objects, content relationships, data modelling for web
-- Web app estimation techniques: LOC analogues, function-point adaptation for web
-- Requirements validation and traceability
+### Week 3 — Communication and Planning
+- Stakeholder communication in web projects: clients, content owners, developers, end users
+- Requirement elicitation techniques: interviews, workshops, scenarios, user stories
+- Scope definition and feasibility analysis for a web application
+- Project planning: scheduling, effort estimation, milestones, deliverables
+- Team roles, project tracking, and essential metrics for web projects
 
-### Week 4 — Web App Design I: Interface and Visual Design
+### Week 4 — Modelling Activity
+- Analysis modelling for web applications: information flow, functional needs, user interaction
+- Content modelling: content objects, relationships, metadata
+- Interaction modelling: user scenarios, navigation paths, use-case-driven behaviour
+- Architectural modelling: layering, components, separation of concerns
+- Validation of models before implementation
+
+### Week 5 — Web App Design: Interface, Content, Architecture, and Navigation
 - Design issues specific to web apps: aesthetics vs. function, cross-browser consistency
 - Interface design: interaction design principles, affordance, feedback
-- Typography in web design: font choices, scales, line height, contrast
-- Layout design: grid systems, whitespace, visual hierarchy
-- Aesthetic design: colour theory, brand consistency, accessibility (WCAG 2.1)
+- Typography, layout, colour, and visual hierarchy
 - Content design: information architecture, labelling, metadata
-
-### Week 5 — Web App Design II: Architecture and Navigation
-- Web app architecture design: two-tier, three-tier, MVC pattern, layered architecture
-- Navigation design: navigation semantics, navigation syntax, navigation structure
-- Object-Oriented Hypermedia Design (OOHDM): navigational classes, contexts, links
-- Design metrics for web apps: navigability index, cohesion, coupling
-- Responsive and adaptive design strategies: fluid grids, media queries, mobile-first
+- Architecture and navigation design: MVC, layered architecture, navigation semantics and structure
+- Object-Oriented Hypermedia Design (OOHDM) and design metrics for web apps
 
 ### Week 6 — REST API Design and Web Services
 - HTTP as an application protocol: methods (GET, POST, PUT, PATCH, DELETE), status codes, headers
@@ -98,26 +98,23 @@ Students will be assessed on the basis of their overall performance across all c
 - Server-side framework patterns — MVC in Express.js, AdonisJS, and Laravel: routing, middleware, ORM (conceptual overview; implementation in CSE 3252)
 - Backend-as-a-Service (BaaS) and serverless concepts: AWS Lambda, Firebase
 
-### Week 8 — Web App Security I: Attack Vectors
+### Week 8 — Web App Security I: Core Application Attacks
 **Primary text:** Malcolm McDonald, *Web Security for Developers: Real Threats, Practical Defense*
 
-- OWASP Top 10 overview: understanding the threat landscape
-- **Injection attacks:** SQL Injection — anatomy of an attack, parameterised queries, ORMs as defence
-- **Cross-Site Scripting (XSS):** reflected, stored, and DOM-based XSS; output encoding; Content Security Policy (CSP)
-- **Cross-Site Request Forgery (CSRF):** how CSRF works; CSRF tokens; SameSite cookie attribute
-- **Server-Side Request Forgery (SSRF):** exploiting internal networks; allowlist-based defence
-- **Insecure Direct Object References (IDOR):** access control validation
+- OWASP Top 10 overview and the role of application security in Web Engineering
+- **Injection attacks:** input handling failures, SQL Injection, command/query injection, and secure coding practices such as parameterised queries and ORM use
+- **Cross-Site Scripting (XSS):** reflected, stored, and DOM-based XSS; attacker goals; output encoding and safe rendering practices
+- **Cross-Site Request Forgery (CSRF):** browser trust model, forged requests, CSRF tokens, and cookie-based protections
+- Secure input handling, validation, sanitisation, and output encoding as general defensive principles
 
-### Week 9 — Web App Security II: Authentication, Transport, and Defence
+### Week 9 — Web App Security II: Authentication, Information Exposure, and Availability
 **Primary text:** Malcolm McDonald, *Web Security for Developers: Real Threats, Practical Defense*
 
-- **Authentication vulnerabilities:** weak passwords, credential stuffing, brute-force attacks; multi-factor authentication
-- **Session management:** session hijacking, session fixation; secure session configuration (HttpOnly, Secure, SameSite flags)
-- **Password storage:** plaintext dangers; hashing with bcrypt/Argon2; salting
-- **Transport security:** TLS handshake, certificate chains, HTTPS enforcement, HSTS
-- **Security headers:** `Content-Security-Policy`, `X-Frame-Options`, `X-Content-Type-Options`, `Referrer-Policy`
-- **Third-party content risks:** supply chain attacks, subresource integrity (SRI)
-- Building a security checklist: pre-launch security review process
+- **Compromising authentication:** weak passwords, brute-force attacks, credential stuffing, broken login flows, and authentication hardening principles
+- **Session and cookie security:** session identifiers, hijacking/fixation concepts, and the use of `HttpOnly`, `Secure`, and `SameSite`
+- **Information leaks:** verbose error messages, debug endpoints, stack traces, sensitive metadata, exposed configuration, and unintended data disclosure
+- **Denial of Service (DoS) attacks:** request flooding, resource exhaustion, expensive operations, abusive endpoints, and rate limiting / throttling concepts
+- Security checklist for web application deployment and maintenance
 
 ### Week 10 — Web App Testing
 - Testing web apps vs. traditional software: challenges of dynamic content, browser variance, network dependency
@@ -176,7 +173,7 @@ Students will be assessed on the basis of their overall performance across all c
 
 ## Textbooks
 
-1. Gerti Kappel, Birgit Pröll, Siegfried Reich, Werner Retschitzegger (eds.) — *Web Engineering: The Discipline of Systematic Development of Web Applications*, Wiley, 2006
+1. Roger S. Pressman and David Lowe — *Web Engineering*, Tata McGraw-Hill, 2008 — for foundational topics on web-based systems, web engineering process, communication, planning, and modelling activity
 2. Malcolm McDonald — *Web Security for Developers: Real Threats, Practical Defense*, No Starch Press, 2020
 3. Leonard Richardson & Mike Amundsen — *RESTful Web APIs*, O'Reilly Media, 2013
 4. Nigel Poulton — *Docker Deep Dive* (2023 edition) *(free online at [dockerbook.com](https://dockerbook.com))*
@@ -203,7 +200,7 @@ Students will be assessed on the basis of their overall performance across all c
 
 | Topic | Download |
 |-------|----------|
-| HTTP (via JavaScript Networking) | [JavaScript Notes for Professionals (PDF)](https://goalkicker.com/JavaScriptBook/JavaScriptNotesForProfessionals.pdf) |
+| JavaScript / HTTP Requests | [JavaScript Notes for Professionals (PDF)](https://goalkicker.com/JavaScriptBook/JavaScriptNotesForProfessionals.pdf) |
 | Git | [Git Notes for Professionals (PDF)](https://goalkicker.com/GitBook/GitNotesForProfessionals.pdf) |
 | Linux (for Docker context) | [Linux Notes for Professionals (PDF)](https://goalkicker.com/LinuxBook/LinuxNotesForProfessionals.pdf) |
 | Node.js | [Node.js Notes for Professionals (PDF)](https://goalkicker.com/NodeJSBook/NodeJSNotesForProfessionals.pdf) |
