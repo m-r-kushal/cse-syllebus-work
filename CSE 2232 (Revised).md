@@ -13,11 +13,11 @@
 
 ## Motivation
 
-Modern software products are experienced primarily through their user interfaces. A well-crafted UI not only looks good but is accessible, responsive, and intuitive to use. This course introduces students to the full front-end development stack — from structuring content with HTML and styling it with CSS, to writing interactive behaviour in JavaScript, applying professional UI/UX design thinking, and building dynamic single-page applications with React.js that communicate with live data sources through public APIs.
+Modern software is experienced largely through its user interface. This course introduces front-end development through HTML, CSS, JavaScript, UI/UX design, and React.js, enabling students to build accessible, responsive, and data-driven web interfaces.
 
 ## Course Objective
 
-This laboratory course gives students hands-on experience in building web-based user interfaces following industry-standard practices. Students will learn to structure and style web pages, apply UI/UX design principles, write client-side JavaScript, use a modern CSS framework (Bootstrap or Tailwind CSS), understand the HTTP/REST model as an API consumer, and build component-based React.js applications that fetch and display data from real public APIs such as TheMealDB and OpenWeatherMap.
+This laboratory course provides hands-on experience in building modern web interfaces. Students will learn HTML, CSS, UI/UX principles, JavaScript, a CSS framework, basic HTTP/REST concepts, and React.js for consuming public APIs.
 
 ---
 
@@ -25,9 +25,9 @@ This laboratory course gives students hands-on experience in building web-based 
 
 | CO No. | CO Statement | Corresponding PO | Domain / Level of Learning Taxonomy | Delivery Methods & Activities | Assessment Tools |
 |--------|-------------|------------------|--------------------------------------|-------------------------------|-----------------|
-| CO1 | To **apply** UI/UX design principles and HTML/CSS to build accessible, well-structured, and visually consistent web pages | Design/Development of Solutions (PO3) | Cognitive domain – Level 3 | ☐ Lecture Note ☒ Text Book ☐ Audio/Video ☒ Web Material ☒ Lab Manual | ☒ CA ☐ Final Exam ☒ Assignment ☒ Notebook ☒ Presentation |
-| CO2 | To **build** interactive, responsive, and validated UI components using JavaScript and a CSS framework (Bootstrap / Tailwind CSS) | Modern Tool Usage (PO5) | Cognitive domain – Level 6 | ☐ Lecture Note ☒ Text Book ☐ Audio/Video ☒ Web Material ☒ Lab Manual | ☒ CA ☐ Final Exam ☒ Assignment ☒ Notebook ☒ Presentation |
-| CO3 | To **develop** a React.js web application that consumes public REST APIs via the Fetch API to present dynamic, data-driven content | Modern Tool Usage (PO5) | Cognitive domain – Level 6 | ☐ Lecture Note ☒ Text Book ☐ Audio/Video ☒ Web Material ☒ Lab Manual | ☒ CA ☒ Final Exam ☒ Assignment ☒ Notebook ☒ Presentation |
+| CO1 | To **apply** UI/UX principles and HTML/CSS to build accessible and well-structured web pages | Design/Development of Solutions (PO3) | Cognitive domain – Level 3 | ☐ Lecture Note ☒ Text Book ☐ Audio/Video ☒ Web Material ☒ Lab Manual | ☒ CA ☐ Final Exam ☒ Assignment ☒ Notebook ☒ Presentation |
+| CO2 | To **build** interactive and responsive UI components using JavaScript and a CSS framework | Modern Tool Usage (PO5) | Cognitive domain – Level 6 | ☐ Lecture Note ☒ Text Book ☐ Audio/Video ☒ Web Material ☒ Lab Manual | ☒ CA ☐ Final Exam ☒ Assignment ☒ Notebook ☒ Presentation |
+| CO3 | To **develop** a React.js web application that consumes public APIs using the Fetch API | Modern Tool Usage (PO5) | Cognitive domain – Level 6 | ☐ Lecture Note ☒ Text Book ☐ Audio/Video ☒ Web Material ☒ Lab Manual | ☒ CA ☒ Final Exam ☒ Assignment ☒ Notebook ☒ Presentation |
 
 ---
 

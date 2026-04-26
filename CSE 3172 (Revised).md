@@ -13,11 +13,11 @@
 
 ## Motivation
 
-Smartphones are the primary computing device for most users worldwide. This course bridges the gap between web and mobile development by introducing **React Native** — a framework that lets students apply their existing React.js knowledge to build real, cross-platform mobile applications for Android and iOS. Because React Native shares the same component model, hooks, and API-fetching patterns already learned in CSE 2232, students can focus on what makes mobile different: native UI components, touch interaction, device hardware APIs, and app distribution via EAS Build.
+Mobile applications are a primary mode of software use today. This course introduces React Native so students can extend their React.js knowledge to build cross-platform mobile apps with native UI, device APIs, and mobile deployment workflows.
 
 ## Course Objective
 
-This laboratory course introduces students to cross-platform mobile application development using React Native and Expo. Students will set up a professional mobile development environment, build multi-screen apps with React Navigation, access device hardware (camera, location, notifications), persist data locally, and produce a distributable build using Expo Application Services (EAS). The course culminates in a full-featured Meal Explorer mobile app — a React Native port of the web application built in CSE 2232.
+This laboratory course introduces cross-platform mobile application development using React Native and Expo. Students will build multi-screen apps, use device APIs, manage local data, and produce a distributable build using EAS.
 
 ---
 
@@ -25,9 +25,9 @@ This laboratory course introduces students to cross-platform mobile application 
 
 | CO No. | CO Statement | Corresponding PO | Domain / Level of Learning Taxonomy | Delivery Methods & Activities | Assessment Tools |
 |--------|-------------|------------------|--------------------------------------|-------------------------------|-----------------|
-| CO1 | To **set up** a React Native / Expo project and **translate** existing React.js knowledge (components, props, state, hooks) into mobile-native UI components and layouts | Modern Tool Usage (PO5) | Cognitive domain – Level 3 | ☐ Lecture Note ☒ Text Book ☐ Audio/Video ☒ Web Material ☒ Lab Manual | ☒ CA ☐ Final Exam ☒ Assignment ☒ Notebook ☒ Presentation |
-| CO2 | To **build** multi-screen mobile applications using React Navigation and integrate device APIs (camera, location, notifications, local storage) | Modern Tool Usage (PO5) | Cognitive domain – Level 6 | ☐ Lecture Note ☒ Text Book ☐ Audio/Video ☒ Web Material ☒ Lab Manual | ☒ CA ☐ Final Exam ☒ Assignment ☒ Notebook ☒ Presentation |
-| CO3 | To **develop and build** a complete data-driven React Native application using the Fetch API and produce a distributable APK/IPA using EAS Build | Design/Development of Solutions (PO3) | Cognitive domain – Level 6 | ☐ Lecture Note ☒ Text Book ☐ Audio/Video ☒ Web Material ☒ Lab Manual | ☒ CA ☒ Final Exam ☒ Assignment ☒ Notebook ☒ Presentation |
+| CO1 | To **set up** a React Native / Expo project and apply React.js knowledge to mobile UI development | Modern Tool Usage (PO5) | Cognitive domain – Level 3 | ☐ Lecture Note ☒ Text Book ☐ Audio/Video ☒ Web Material ☒ Lab Manual | ☒ CA ☐ Final Exam ☒ Assignment ☒ Notebook ☒ Presentation |
+| CO2 | To **build** multi-screen mobile applications using React Navigation and device APIs | Modern Tool Usage (PO5) | Cognitive domain – Level 6 | ☐ Lecture Note ☒ Text Book ☐ Audio/Video ☒ Web Material ☒ Lab Manual | ☒ CA ☐ Final Exam ☒ Assignment ☒ Notebook ☒ Presentation |
+| CO3 | To **develop** a data-driven React Native application using the Fetch API and EAS Build | Design/Development of Solutions (PO3) | Cognitive domain – Level 6 | ☐ Lecture Note ☒ Text Book ☐ Audio/Video ☒ Web Material ☒ Lab Manual | ☒ CA ☒ Final Exam ☒ Assignment ☒ Notebook ☒ Presentation |
 
 ---
 
