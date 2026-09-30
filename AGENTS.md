@@ -1,4 +1,6 @@
-# Copilot Instructions
+# AGENTS.md
+
+Guidance for AI coding agents (Claude Code, Copilot, Codex, etc.) and people working in this repository.
 
 ## Repository Purpose
 
@@ -39,7 +41,7 @@ Every syllabus follows this fixed structure:
 - `Y` = semester within that year (1 or 2)
 - `ZZ` = sequential course number within that semester
 
-Odd last-digit in the tens place (e.g. `51`) = theory; even (e.g. `52`) = paired lab course.
+An odd last digit (e.g. `3251`) means a theory course; an even last digit (e.g. `3252`, `2232`) means a lab course.
 
 ## Technology Coverage
 
@@ -72,3 +74,21 @@ CSE 1222 (OOP Lab)
 - Assessment split must remain 20/70/10 for theory and 30/60/10 for labs unless explicitly changed. The `*_U.docx` final drafts are authoritative for marks distribution.
 - For lab courses, "Final Exam" is always paired with "Lab notebook".
 - Course codes must follow the `CSE XYZZ` numbering convention.
+
+## Working With the Files
+
+- **Editing a `_U.docx` draft:**
+  - Before editing, check the file isn't open in Word. A `~$…docx` lock file next to it means it is open.
+  - Also check it hasn't been re-saved since the last commit.
+  - Edit by unzipping, changing only the text inside existing `<w:t>` runs in `word/document.xml`, and re-zipping. Never reformat or pretty-print the XML.
+  - Checkboxes are plain `☐`/`☒` characters inside content controls. Swap the character to tick or untick one.
+  - Whole paragraphs or blocks may be removed, but don't add new styling.
+- **Verifying:**
+  - Check the XML is still well-formed.
+  - Compare the text before and after, for example with `textutil -convert txt -stdout file.docx` on macOS.
+  - After any draft change, update `CSE XXXX Syllabus.md` to match it.
+- **Output:** run `./scripts/build-output.sh` to rebuild `output/` (`.docx` via pandoc, `.pdf` via headless Chrome).
+- **Git:**
+  - Commit in logical groups, one course or one concern per commit.
+  - `core.fileMode` is `false` in this repository, so permission changes are ignored.
+  - Mark new scripts executable with `git update-index --chmod=+x`.
