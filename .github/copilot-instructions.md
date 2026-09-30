@@ -17,7 +17,7 @@ This repository contains course syllabus documents for a Computer Science & Engi
 - Each course has two markdown copies:
   - `(Printed Syllabus).md` must match the `_U.docx` draft exactly: same text, checkboxes, and marks.
   - `(Revised).md` is the detailed in-class handout, with lab bullets, weekly breakdowns, capstone requirements, and Recommended Resources. Its CO table must match the draft.
-- `CSE XXXX.docx` files are the original, pre-revision syllabi. `output/` holds generated `.docx`/`.pdf` renders of the markdown copies.
+- `output/` holds generated `.docx`/`.pdf` renders of the markdown copies. The original pre-revision syllabi (`CSE XXXX.docx`) were removed and are available in git history.
 - `BAETE_CO_PO_Taxonomy level.docx` is the reference for POs and taxonomy levels.
 
 ## Document Structure Convention
