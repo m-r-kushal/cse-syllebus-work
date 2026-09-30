@@ -17,7 +17,7 @@ This repository contains course syllabus documents for a Computer Science & Engi
 - Each course has two markdown copies:
   - `CSE XXXX Syllabus.md` must match the `_U.docx` draft exactly: same text, checkboxes, and marks.
   - `CSE XXXX Handout.md` is the detailed in-class handout, with lab bullets, weekly breakdowns, capstone requirements, and Recommended Resources. Its CO table must match the draft.
-- `output/` holds generated `.docx`/`.pdf` renders of the markdown copies. Regenerate them with `scripts/build-output.sh`, which needs pandoc and Google Chrome, after any markdown change. The original pre-revision syllabi (`CSE XXXX.docx`) were removed and are available in git history.
+- `output/` holds generated `.docx`/`.pdf` renders of the markdown copies. Regenerate them with `scripts/build-output.sh`, which needs pandoc and Google Chrome, after any markdown change. `output/` is git-ignored, so don't commit its contents. The original pre-revision syllabi (`CSE XXXX.docx`) were removed and are available in git history.
 - `BAETE_CO_PO_Taxonomy level.docx` is the reference for POs and taxonomy levels.
 
 ## Document Structure Convention
