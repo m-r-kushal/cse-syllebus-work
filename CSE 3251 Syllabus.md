@@ -6,7 +6,7 @@
 | **Contact Hours** | 42 |
 | **Year** | Third |
 | **Semester** | Second |
-| **Prerequisites** | CSE 2232: User Interface Development, CSE 3141: Computer Networks |
+| **Prerequisites** | CSE 2232: User Interface Development Lab, CSE 3141: Computer Networks |
 | **Course Type** | ☒ Theory &nbsp;&nbsp; ☐ Laboratory work &nbsp;&nbsp; ☐ Project work &nbsp;&nbsp; ☐ Viva Voce |
 
 ---
@@ -25,7 +25,7 @@ This course introduces Web Engineering as a systematic process for designing, an
 
 | CO No. | CO Statement | Corresponding PO | Domain / Level of Learning Taxonomy | Delivery Methods & Activities | Assessment Tools |
 |--------|-------------|------------------|--------------------------------------|-------------------------------|-----------------|
-| CO1 | To **analyse** web engineering methodologies for the systematic development of web applications | Engineering Knowledge (PO1), Problem Analysis (PO2) | Cognitive domain – Level 4 | ☒ Lecture Note ☒ Text Book ☐ Audio/Video ☒ Web Material ☐ Journal paper | ☒ CA ☒ Final Exam ☐ Assignment ☐ Participation ☐ Presentation |
+| CO1 | To **examine** web engineering methodologies for the systematic development of web applications | Engineering Knowledge (PO1), Problem Analysis (PO2) | Cognitive domain – Level 4 | ☒ Lecture Note ☒ Text Book ☐ Audio/Video ☒ Web Material ☐ Journal paper | ☒ CA ☒ Final Exam ☐ Assignment ☐ Participation ☐ Presentation |
 | CO2 | To **design** RESTful APIs and modern web architectures, including Single Page Applications and microservices, that meet specified requirements | Design/Development of Solutions (PO3) | Cognitive domain – Level 6 | ☒ Lecture Note ☒ Text Book ☐ Audio/Video ☒ Web Material ☐ Journal paper | ☒ CA ☒ Final Exam ☒ Assignment ☐ Participation ☐ Presentation |
 | CO3 | To **evaluate** web application security threats and practical defences, including injection attacks, authentication flaws, information leaks, and denial of service attacks | Problem Analysis (PO2) | Cognitive domain – Level 5 | ☒ Lecture Note ☒ Text Book ☐ Audio/Video ☒ Web Material ☐ Journal paper | ☒ CA ☒ Final Exam ☒ Assignment ☐ Participation ☐ Presentation |
 | CO4 | To **compare** scalability strategies, Docker-based containerization, and CI/CD pipeline approaches for production web systems | Modern Tool Usage (PO5) | Cognitive domain – Level 4 | ☒ Lecture Note ☒ Text Book ☐ Audio/Video ☒ Web Material ☐ Journal paper | ☒ CA ☒ Final Exam ☒ Assignment ☐ Participation ☐ Presentation |
