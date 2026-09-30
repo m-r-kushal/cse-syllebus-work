@@ -41,7 +41,7 @@ This laboratory course develops practical skills in full-stack web development u
 
 ## Lab Course Contents / List of Experiments
 
-- Lab 1 — Environment Setup and Project Structure
+- Lab 1 — Environment Setup, Git, and Project Structure
 - Lab 2 — Backend Framework Basics and Database Migrations
 - Lab 3 — REST API Development with Postman
 - Lab 4 — Authentication and Role-Based Access

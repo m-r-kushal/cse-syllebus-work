@@ -45,7 +45,7 @@ Students will be assessed on the basis of their overall performance across all l
 
 ## Lab Course Contents / List of Experiments
 
-### Lab 1 — Environment Setup and Project Structure
+### Lab 1 — Environment Setup, Git, and Project Structure
 - Install and configure Node.js, Composer, PHP, MySQL/PostgreSQL, Git, Postman, and Docker Desktop
 - Create a React frontend with Vite and initialize a backend project in the chosen server-side framework
 - Understand the full-stack folder structure, client-server interaction, and API-first workflow
