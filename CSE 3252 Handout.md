@@ -27,7 +27,7 @@ This laboratory course develops practical skills in full-stack web development u
 |--------|-------------|------------------|--------------------------------------|-------------------------------|-----------------|
 | CO1 | To **construct** RESTful backend services and database-driven features using a modern server-side web framework | Modern Tool Usage (PO5) | Cognitive domain – Level 6 | ☐ Lecture Note ☒ Text Book ☐ Audio/Video ☒ Web Material ☒ Lab Manual | ☒ CA ☒ Final Exam ☐ Assignment ☐ Notebook ☒ Presentation |
 | CO2 | To **develop** full-stack web applications by integrating React frontends with backend APIs, authentication, validation, and persistence | Design/Development of Solutions (PO3) | Cognitive domain – Level 6 | ☐ Lecture Note ☒ Text Book ☐ Audio/Video ☒ Web Material ☒ Lab Manual | ☒ CA ☒ Final Exam ☐ Assignment ☐ Notebook ☒ Presentation |
-| CO3 | To **use** Postman, Git, and Docker to test, version, and containerize secure web applications | Modern Tool Usage (PO5) | Cognitive domain – Level 3 | ☐ Lecture Note ☒ Text Book ☐ Audio/Video ☒ Web Material ☒ Lab Manual | ☒ CA ☒ Final Exam ☐ Assignment ☐ Notebook ☒ Presentation |
+| CO3 | To **use** Postman, Git, and Docker for API testing, version control, and containerization of secure web applications | Modern Tool Usage (PO5) | Cognitive domain – Level 3 | ☐ Lecture Note ☒ Text Book ☐ Audio/Video ☒ Web Material ☒ Lab Manual | ☒ CA ☒ Final Exam ☐ Assignment ☐ Notebook ☒ Presentation |
 
 ---
 
@@ -46,9 +46,10 @@ Students will be assessed on the basis of their overall performance across all l
 ## Lab Course Contents / List of Experiments
 
 ### Lab 1 — Environment Setup and Project Structure
-- Install and configure Node.js, Composer, PHP, MySQL/PostgreSQL, Postman, and Docker Desktop
+- Install and configure Node.js, Composer, PHP, MySQL/PostgreSQL, Git, Postman, and Docker Desktop
 - Create a React frontend with Vite and initialize a backend project in the chosen server-side framework
 - Understand the full-stack folder structure, client-server interaction, and API-first workflow
+- Version control with Git: initialise a repository, commit changes, and push to GitHub; commit lab work regularly throughout the course
 
 ### Lab 2 — Backend Framework Basics and Database Migrations
 - Project structure, routing, controllers, middleware, and configuration in the selected backend framework

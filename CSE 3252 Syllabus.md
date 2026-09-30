@@ -27,7 +27,7 @@ This laboratory course develops practical skills in full-stack web development u
 |--------|-------------|------------------|--------------------------------------|-------------------------------|-----------------|
 | CO1 | To **construct** RESTful backend services and database-driven features using a modern server-side web framework | Modern Tool Usage (PO5) | Cognitive domain – Level 6 | ☐ Lecture Note ☒ Text Book ☐ Audio/Video ☒ Web Material ☒ Lab Manual | ☒ CA ☒ Final Exam ☐ Assignment ☐ Notebook ☒ Presentation |
 | CO2 | To **develop** full-stack web applications by integrating React frontends with backend APIs, authentication, validation, and persistence | Design/Development of Solutions (PO3) | Cognitive domain – Level 6 | ☐ Lecture Note ☒ Text Book ☐ Audio/Video ☒ Web Material ☒ Lab Manual | ☒ CA ☒ Final Exam ☐ Assignment ☐ Notebook ☒ Presentation |
-| CO3 | To **use** Postman, Git, and Docker to test, version, and containerize secure web applications | Modern Tool Usage (PO5) | Cognitive domain – Level 3 | ☐ Lecture Note ☒ Text Book ☐ Audio/Video ☒ Web Material ☒ Lab Manual | ☒ CA ☒ Final Exam ☐ Assignment ☐ Notebook ☒ Presentation |
+| CO3 | To **use** Postman, Git, and Docker for API testing, version control, and containerization of secure web applications | Modern Tool Usage (PO5) | Cognitive domain – Level 3 | ☐ Lecture Note ☒ Text Book ☐ Audio/Video ☒ Web Material ☒ Lab Manual | ☒ CA ☒ Final Exam ☐ Assignment ☐ Notebook ☒ Presentation |
 
 ---
 
