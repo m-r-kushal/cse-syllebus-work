@@ -19,7 +19,9 @@ Every syllabus follows this fixed structure:
 1. **Header** — Course code, credits, contact hours, year, semester, prerequisite(s), course type checkbox
 2. **Motivation / Course Objective**
 3. **Course Outcomes (COs)** — Each CO maps to a Program Outcome (PO), a Bloom's taxonomy level, delivery methods, and assessment tools
-4. **Assessment & Marks Distribution** — Always: CA 20% / Final Exam (+Lab notebook for labs) 70% / Participation 10%
+4. **Assessment & Marks Distribution**
+   - Theory courses: CA (class tests + assignments) 20% / Final Exam 70% / Participation 10%
+   - Lab courses: CA 30% / Final Exam + Lab notebook 60% / Participation 10%
 5. **Course Contents / List of Experiments**
 6. **Textbook(s) and Recommended Books** (theory courses)
 
@@ -53,6 +55,6 @@ CSE 1222 (OOP Lab)
 
 - Maintain the standard section order described above.
 - CO numbering starts at CO1 and each CO must reference a Program Outcome (PO1–PO12).
-- Assessment split must remain 20/70/10 unless explicitly changed.
+- Assessment split must remain 20/70/10 for theory and 30/60/10 for labs unless explicitly changed. The `*_U.docx` final drafts are authoritative for marks distribution.
 - For lab courses, "Final Exam" is always paired with "Lab notebook".
 - Course codes must follow the `CSE XYZZ` numbering convention.
