@@ -25,9 +25,9 @@ This laboratory course provides hands-on experience in building modern web inter
 
 | CO No. | CO Statement | Corresponding PO | Domain / Level of Learning Taxonomy | Delivery Methods & Activities | Assessment Tools |
 |--------|-------------|------------------|--------------------------------------|-------------------------------|-----------------|
-| CO1 | To **reproduce** wireframe designs as accessible, well-structured web pages using HTML, CSS, and UI/UX principles | Modern Tool Usage (PO5) | Psychomotor domain – Level 3 | ☐ Lecture Note ☒ Text Book ☐ Audio/Video ☒ Web Material ☒ Lab Manual | ☒ CA ☐ Final Exam ☒ Assignment ☒ Notebook ☒ Presentation |
-| CO2 | To **construct** interactive and responsive UI components using JavaScript and a CSS framework | Modern Tool Usage (PO5) | Psychomotor domain – Level 4 | ☐ Lecture Note ☒ Text Book ☐ Audio/Video ☒ Web Material ☒ Lab Manual | ☒ CA ☐ Final Exam ☒ Assignment ☒ Notebook ☒ Presentation |
-| CO3 | To **develop** a React.js web application that consumes public APIs using the Fetch API | Design/Development of Solutions (PO3) | Cognitive domain – Level 6 | ☐ Lecture Note ☒ Text Book ☐ Audio/Video ☒ Web Material ☒ Lab Manual | ☒ CA ☒ Final Exam ☒ Assignment ☒ Notebook ☒ Presentation |
+| CO1 | To **reproduce** wireframe designs as accessible, well-structured web pages using HTML, CSS, and UI/UX principles | Modern Tool Usage (PO5) | Psychomotor domain – Level 3 | ☐ Lecture Note ☒ Text Book ☐ Audio/Video ☒ Web Material ☒ Lab Manual | ☒ CA ☐ Final Exam ☒ Assignment ☐ Notebook ☒ Presentation |
+| CO2 | To **construct** interactive and responsive UI components using JavaScript and a CSS framework | Modern Tool Usage (PO5) | Psychomotor domain – Level 4 | ☐ Lecture Note ☒ Text Book ☐ Audio/Video ☒ Web Material ☒ Lab Manual | ☒ CA ☐ Final Exam ☒ Assignment ☐ Notebook ☒ Presentation |
+| CO3 | To **develop** a React.js web application that consumes public APIs using the Fetch API | Design/Development of Solutions (PO3) | Cognitive domain – Level 6 | ☐ Lecture Note ☒ Text Book ☐ Audio/Video ☒ Web Material ☒ Lab Manual | ☒ CA ☒ Final Exam ☒ Assignment ☐ Notebook ☒ Presentation |
 
 ---
 
