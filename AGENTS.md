@@ -67,9 +67,16 @@ CSE 1222 (OOP Lab)
 - Edit the `*_U.docx` final drafts text-only (no formatting changes). Mirror every draft change in its `CSE XXXX Syllabus.md`, and keep the `CSE XXXX Handout.md` handout's CO table and marks aligned.
 - CO numbering starts at CO1 and each CO must reference a Program Outcome (PO1–PO12).
 - Follow the BAETE taxonomy:
-  - Use one action verb per CO, and make the stated level match that verb.
+  - Use one action verb per CO. Take it from the Cognitive Domain pyramid (the image in `BAETE_CO_PO_Taxonomy level.docx`), and state the level the pyramid gives it:
+    - L1 Remember: define, duplicate, list, memorize, repeat, state
+    - L2 Understand: classify, describe, discuss, explain, identify, locate, recognize, report, select, translate
+    - L3 Apply: execute, implement, solve, use, interpret, demonstrate, operate, schedule, sketch
+    - L4 Analyze: differentiate, organize, relate, compare, contrast, distinguish, examine, experiment, question, test
+    - L5 Evaluate: appraise, argue, defend, judge, select, support, value, critique, weigh
+    - L6 Create: design, assemble, construct, conjecture, develop, formulate, author, investigate
+  - Use the Cognitive domain for all COs, lab courses included. The BAETE document describes the Psychomotor domain only as physical/motor skills and gives no verbs for it.
   - PO3 (Design/Development of Solutions) needs a Level 6 design/develop verb.
-  - Lab courses use Psychomotor L3 → PO5, Psychomotor L4 → PO5, and a capstone CO at Cognitive L6 → PO3.
+  - Lab courses follow the pattern: one L3 Apply CO → PO5, one L6 construct CO → PO5, and an L6 develop capstone CO → PO3.
 - Use "CA" (not "Class Test") as the assessment tool label. Notebook is not ticked as a CO assessment tool.
 - Assessment split must remain 20/70/10 for theory and 30/60/10 for labs unless explicitly changed. The `*_U.docx` final drafts are authoritative for marks distribution.
 - For lab courses, "Final Exam" is always paired with "Lab notebook".
