@@ -25,8 +25,8 @@ This laboratory course introduces cross-platform mobile application development 
 
 | CO No. | CO Statement | Corresponding PO | Domain / Level of Learning Taxonomy | Delivery Methods & Activities | Assessment Tools |
 |--------|-------------|------------------|--------------------------------------|-------------------------------|-----------------|
-| CO1 | To **set up** a React Native / Expo project and apply React.js knowledge to mobile UI development | Modern Tool Usage (PO5) | Cognitive domain – Level 3 | ☐ Lecture Note ☒ Text Book ☐ Audio/Video ☒ Web Material ☒ Lab Manual | ☒ CA ☐ Final Exam ☒ Assignment ☒ Notebook ☒ Presentation |
-| CO2 | To **build** multi-screen mobile applications using React Navigation and device APIs | Modern Tool Usage (PO5) | Cognitive domain – Level 6 | ☐ Lecture Note ☒ Text Book ☐ Audio/Video ☒ Web Material ☒ Lab Manual | ☒ CA ☐ Final Exam ☒ Assignment ☒ Notebook ☒ Presentation |
+| CO1 | To **set up** React Native / Expo projects and mobile UIs using core components and Flexbox layouts | Modern Tool Usage (PO5) | Psychomotor domain – Level 3 | ☐ Lecture Note ☒ Text Book ☐ Audio/Video ☒ Web Material ☒ Lab Manual | ☒ CA ☐ Final Exam ☒ Assignment ☒ Notebook ☒ Presentation |
+| CO2 | To **construct** multi-screen mobile applications using React Navigation and device APIs | Modern Tool Usage (PO5) | Psychomotor domain – Level 4 | ☐ Lecture Note ☒ Text Book ☐ Audio/Video ☒ Web Material ☒ Lab Manual | ☒ CA ☐ Final Exam ☒ Assignment ☒ Notebook ☒ Presentation |
 | CO3 | To **develop** a data-driven React Native application using the Fetch API and EAS Build | Design/Development of Solutions (PO3) | Cognitive domain – Level 6 | ☐ Lecture Note ☒ Text Book ☐ Audio/Video ☒ Web Material ☒ Lab Manual | ☒ CA ☒ Final Exam ☒ Assignment ☒ Notebook ☒ Presentation |
 
 ---
@@ -35,8 +35,8 @@ This laboratory course introduces cross-platform mobile application development 
 
 | Component | Weightage |
 |---|---|
-| Continuous Assessments (CA) — lab exercises and assignments throughout the semester | 20% |
-| Comprehensive Final Exam + Lab Notebook | 70% |
+| Continuous Assessments (CA) — lab exercises and assignments throughout the semester | 30% |
+| Comprehensive Final Exam + Lab Notebook | 60% |
 | Class Participation | 10% |
 
 ---
@@ -44,7 +44,7 @@ This laboratory course introduces cross-platform mobile application development 
 ## Lab Course Contents / List of Experiments
 
 ### Lab 1 — Environment Setup and React Native Fundamentals
-- Install Node.js, Expo CLI (`npm install -g expo-cli`), and the **Expo Go** app on a physical device
+- Install Node.js and the **Expo Go** app on a physical device (no global Expo CLI needed — run it with `npx expo`)
 - Create a new project: `npx create-expo-app MealExplorer`
 - Project structure: `app.json`, `App.js`, `assets/`, `node_modules/`
 - React Native vs. React web — key differences:
@@ -115,7 +115,7 @@ This laboratory course introduces cross-platform mobile application development 
 - Overview of signing (keystore for Android, provisioning profile for iOS) — concepts only, not hands-on for iOS
 - Exercise: produce a working `.apk` of the Lab 8 exercise app and install it on a classmate's device
 
-### Lab 10 — React Native Capstone: Meal Explorer Mobile App (Final Project)
+### Lab 10 — React Native Capstone Project
 Build a complete mobile version of the Meal Explorer application built in CSE 2232, using [TheMealDB API](https://www.themealdb.com/api.php) (free, no auth required).
 
 **App screens:**
@@ -154,7 +154,7 @@ Regardless of project choice, all technical requirements above (Tab + Stack Navi
 
 ---
 
-## Textbook
+## Textbooks
 
 1. Nader Dabit — *React Native in Action*, Manning Publications, 2019
 2. Bonnie Eisenman — *Learning React Native* (2nd ed.), O'Reilly Media, 2018
