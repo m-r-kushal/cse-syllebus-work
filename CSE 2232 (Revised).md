@@ -25,9 +25,9 @@ This laboratory course provides hands-on experience in building modern web inter
 
 | CO No. | CO Statement | Corresponding PO | Domain / Level of Learning Taxonomy | Delivery Methods & Activities | Assessment Tools |
 |--------|-------------|------------------|--------------------------------------|-------------------------------|-----------------|
-| CO1 | To **apply** UI/UX principles and HTML/CSS to build accessible and well-structured web pages | Design/Development of Solutions (PO3) | Cognitive domain – Level 3 | ☐ Lecture Note ☒ Text Book ☐ Audio/Video ☒ Web Material ☒ Lab Manual | ☒ CA ☐ Final Exam ☒ Assignment ☒ Notebook ☒ Presentation |
-| CO2 | To **build** interactive and responsive UI components using JavaScript and a CSS framework | Modern Tool Usage (PO5) | Cognitive domain – Level 6 | ☐ Lecture Note ☒ Text Book ☐ Audio/Video ☒ Web Material ☒ Lab Manual | ☒ CA ☐ Final Exam ☒ Assignment ☒ Notebook ☒ Presentation |
-| CO3 | To **develop** a React.js web application that consumes public APIs using the Fetch API | Modern Tool Usage (PO5) | Cognitive domain – Level 6 | ☐ Lecture Note ☒ Text Book ☐ Audio/Video ☒ Web Material ☒ Lab Manual | ☒ CA ☒ Final Exam ☒ Assignment ☒ Notebook ☒ Presentation |
+| CO1 | To **reproduce** wireframe designs as accessible, well-structured web pages using HTML, CSS, and UI/UX principles | Modern Tool Usage (PO5) | Psychomotor domain – Level 3 | ☐ Lecture Note ☒ Text Book ☐ Audio/Video ☒ Web Material ☒ Lab Manual | ☒ CA ☐ Final Exam ☒ Assignment ☒ Notebook ☒ Presentation |
+| CO2 | To **construct** interactive and responsive UI components using JavaScript and a CSS framework | Modern Tool Usage (PO5) | Psychomotor domain – Level 4 | ☐ Lecture Note ☒ Text Book ☐ Audio/Video ☒ Web Material ☒ Lab Manual | ☒ CA ☐ Final Exam ☒ Assignment ☒ Notebook ☒ Presentation |
+| CO3 | To **develop** a React.js web application that consumes public APIs using the Fetch API | Design/Development of Solutions (PO3) | Cognitive domain – Level 6 | ☐ Lecture Note ☒ Text Book ☐ Audio/Video ☒ Web Material ☒ Lab Manual | ☒ CA ☒ Final Exam ☒ Assignment ☒ Notebook ☒ Presentation |
 
 ---
 
@@ -37,8 +37,8 @@ Students will be assessed on the basis of their overall performance across all l
 
 | Component |  |
 |---|---|
-| Continuous Assessments (CA) — lab exercises and assignments throughout the semester | 20% |
-| Comprehensive Final Exam + Lab Notebook | 70% |
+| Continuous Assessments (CA) — lab exercises and assignments throughout the semester | 30% |
+| Comprehensive Final Exam + Lab Notebook | 60% |
 | Class Participation | 10% |
 
 ---
@@ -77,14 +77,12 @@ Students will be assessed on the basis of their overall performance across all l
 - Event handling: `addEventListener`, event propagation, `preventDefault`
 - Client-side form validation: constraint validation API, custom error messages, regex patterns
 
-### Lab 6 — Asynchronous JavaScript, Fetch API, and Browser DevTools
+### Lab 6 — Asynchronous JavaScript, HTTP/REST, and the Fetch API
 - Synchronous vs. asynchronous execution; the event loop
 - Promises: `.then()`, `.catch()`, chaining
 - `async`/`await` syntax and error handling with `try/catch`
 - The Fetch API: `fetch()`, reading `Response.json()`, handling HTTP errors
 - Browser DevTools: Elements panel (inspect and debug CSS), Network panel (monitor API requests and responses, inspect headers/payloads)
-
-### Lab 7 — HTTP and REST: Understanding APIs as a Consumer
 - HTTP request/response cycle: methods (GET, POST, PUT, DELETE), status codes (2xx, 4xx, 5xx)
 - Anatomy of a URL: scheme, host, path, query parameters, fragments
 - JSON structure: objects, arrays, nesting, `JSON.parse()` / `JSON.stringify()`
@@ -92,22 +90,22 @@ Students will be assessed on the basis of their overall performance across all l
 - Reading API documentation: authentication methods (API keys, query params), rate limits, example endpoints
 - *Note:* This lab positions students as **consumers** of APIs; building API servers is covered in later courses.
 
-### Lab 8 — React.js Basics: Components, Props, State, and Hooks
+### Lab 7 — React.js Basics: Components, Props, State, and Hooks
 - Setting up a React app with **Vite** (`npm create vite@latest`)
 - JSX syntax and the virtual DOM concept
 - Functional components: defining, composing, and rendering
-- Props: passing data from parent to child, PropTypes for type checking
+- Props: passing data from parent to child; destructuring props and default values
 - State with `useState`: managing and updating local component state
 - Side effects with `useEffect`: running code on mount, dependency arrays
 - Practice: build a small static card-list UI (no API yet) to solidify component thinking before introducing live data
 
-### Lab 9 — Public API Integration: Consuming REST APIs with React
+### Lab 8 — Public API Integration: Consuming REST APIs with React
 - Connect to a simple public API (e.g., [JSONPlaceholder](https://jsonplaceholder.typicode.com) or [REST Countries](https://restcountries.com)) using `useEffect` + Fetch inside a React component
 - Display a list of fetched items as reusable card components
-- Implement loading spinner state and error boundary message
+- Implement loading and error states (spinner and error message)
 - Practice: passing fetched data down as props, conditional rendering (`&&`, ternary)
 
-### Lab 10 — React.js Capstone: Meal Explorer App (Final Project)
+### Lab 9 — React.js Capstone Project
 Build a complete multi-page Meal Explorer application using the [TheMealDB API](https://www.themealdb.com/api.php) (free, no auth required).
 
 **App screens and features:**
@@ -125,7 +123,7 @@ Build a complete multi-page Meal Explorer application using the [TheMealDB API](
 - Responsive layout using the CSS framework from Lab 4 (Bootstrap or Tailwind)
 - Accessible markup: semantic headings, `alt` text on all images, keyboard-navigable cards
 
-**Assessment:** Students demo the live running app (all three screens functional) and submit the complete lab notebook covering Labs 1–10.
+**Assessment:** Students demo the live running app (all three screens functional) and submit the complete lab notebook covering Labs 1–9.
 
 > **Alternative Final Projects:** Students may choose one of the following in place of the Meal Explorer. All alternatives require the same three-screen structure (list → filtered list → detail), React Router, `useEffect` + Fetch, and responsive/accessible UI.
 
@@ -139,7 +137,7 @@ Regardless of project choice, all technical requirements above (React Router, sh
 
 ---
 
-## Textbook
+## Textbooks
 
 1. Jon Duckett — *HTML and CSS: Design and Build Websites*, Wiley, 2011 *(visual reference, still widely used)*
 2. Marijn Haverbeke — *Eloquent JavaScript* (4th ed.), No Starch Press, 2024 *(free online at [eloquentjavascript.net](https://eloquentjavascript.net))*
