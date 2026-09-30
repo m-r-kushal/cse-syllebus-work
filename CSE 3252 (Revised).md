@@ -45,27 +45,27 @@ Students will be assessed on the basis of their overall performance across all l
 
 ## Lab Course Contents / List of Experiments
 
-### Lab 1 — Environment Setup and Full-Stack Project Structure
+### Lab 1 — Environment Setup and Project Structure
 - Install and configure Node.js, Composer, PHP, MySQL/PostgreSQL, Postman, and Docker Desktop
 - Create a React frontend with Vite and initialize a backend project in the chosen server-side framework
 - Understand the full-stack folder structure, client-server interaction, and API-first workflow
 
-### Lab 2 — Server-Side Framework Fundamentals
+### Lab 2 — Backend Framework Basics and Database Migrations
 - Project structure, routing, controllers, middleware, and configuration in the selected backend framework
 - Database migrations, models, seeders, and ORM / query builder basics
 - Build a simple resource module with database-backed CRUD
 
-### Lab 3 — REST API Development
+### Lab 3 — REST API Development with Postman
 - Build RESTful API endpoints with controllers and resource routes
 - Request validation, JSON responses, error handling, and API testing with Postman
 - Model relationships and relational CRUD operations
 
-### Lab 4 — Authentication and Authorization
+### Lab 4 — Authentication and Role-Based Access
 - User registration, login, logout, password hashing, protected routes
 - Token/session-based authentication concepts in the chosen backend framework
 - Role-based access and route protection for admin/user features
 
-### Lab 5 — React Frontend Integration
+### Lab 5 — React–API Integration
 - Connect React components to backend APIs using Fetch or Axios
 - Form submission, loading states, validation messages, and error handling
 - React Router integration with public and protected pages
@@ -86,7 +86,7 @@ Students will be assessed on the basis of their overall performance across all l
 - Debugging with browser DevTools, backend logs, and framework debugging tools
 - Prepare API usage documentation for the final project
 
-### Lab 9 — Docker and Capstone Full-Stack Project
+### Lab 9 — Dockerization and Capstone Project
 - Dockerise the application stack using containers for frontend, backend, and database
 - Use Docker Compose for local development and service orchestration
 - Final project: develop and demonstrate a secure full-stack web application using React frontend and the selected backend framework
@@ -99,7 +99,7 @@ Students will be assessed on the basis of their overall performance across all l
 - Postman collection / API documentation
 - Docker-based local setup
 
-### Optional Extension — Alternative Backend Framework / Comparative Implementation
+### Optional Extension — Alternative Backend Framework
 - Implement the same or a similar backend module in an alternative server-side framework if taught during the semester
 - Compare routing, middleware, validation, ORM / query builder usage, and project structure
 - Explore similarities and differences between backend framework workflows
