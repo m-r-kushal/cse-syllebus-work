@@ -48,7 +48,7 @@ An odd last digit (e.g. `3251`) means a theory course; an even last digit (e.g. 
 - **CSE 2232** (UI Dev Lab): HTML, UI/UX design (Figma wireframes), CSS (Flexbox, Grid), Bootstrap / Tailwind CSS, JavaScript and the DOM, async JS and the Fetch API, HTTP/REST as an API consumer, React.js (Vite, hooks, React Router); capstone consumes public APIs (TheMealDB etc.). 9 labs.
 - **CSE 3172** (Mobile Lab): React Native with Expo, core components and Flexbox, React Navigation (stack + tabs), forms, data fetching and AsyncStorage, device APIs (camera, location, notifications), EAS Build; capstone is a mobile version of the CSE 2232 app. 8 labs.
 - **CSE 3251** (Web Engineering theory): Web engineering process, planning and modelling, web app design (OOHDM), REST API design and modern web architecture (SPA, SSR/CSR/SSG, microservices, GraphQL, OAuth/JWT), web security (OWASP Top 10), testing (Selenium, Playwright, Cypress), scalability and load balancing, Docker, CI/CD (GitHub Actions).
-- **CSE 3252** (Web Engineering Lab): React frontend with a server-side framework (Express.js, AdonisJS, and/or Laravel), migrations/ORM, REST APIs, authentication and role-based access, file uploads and security, Postman testing, Docker / Docker Compose; full-stack capstone. 9 labs.
+- **CSE 3252** (Web Engineering Lab): Git version control, React frontend with a server-side framework (Express.js, AdonisJS, and/or Laravel), migrations/ORM, REST APIs, authentication and role-based access, file uploads and security, Postman testing, Docker / Docker Compose; full-stack capstone. 9 labs.
 
 ## Prerequisite Chain
 
@@ -74,12 +74,17 @@ CSE 1222 (OOP Lab)
     - L4 Analyze: differentiate, organize, relate, compare, contrast, distinguish, examine, experiment, question, test
     - L5 Evaluate: appraise, argue, defend, judge, select, support, value, critique, weigh
     - L6 Create: design, assemble, construct, conjecture, develop, formulate, author, investigate
+  - Take the verb from the lists above, not from the level names. For example, use "examine" rather than "analyse". CSE 3251 CO3 keeps "evaluate" by the course owner's choice.
+  - Don't put a second, higher-level verb elsewhere in the statement. For example, an L3 "use" CO should say "for API testing", not "to test".
   - Use the Cognitive domain for all COs, lab courses included. The BAETE document describes the Psychomotor domain only as physical/motor skills and gives no verbs for it.
   - PO3 (Design/Development of Solutions) needs a Level 6 design/develop verb.
   - Lab courses follow the pattern: one L3 Apply CO → PO5, one L6 construct CO → PO5, and an L6 develop capstone CO → PO3.
 - Use "CA" (not "Class Test") as the assessment tool label. Notebook is not ticked as a CO assessment tool.
 - Assessment split must remain 20/70/10 for theory and 30/60/10 for labs unless explicitly changed. The `*_U.docx` final drafts are authoritative for marks distribution.
+- Tick "Final Exam" for every CO, so each CO is covered by the largest marks component.
+- In theory courses, tick only assessment tools that have a component in the marks split. Presentation has none, so leave it unticked.
 - For lab courses, "Final Exam" is always paired with "Lab notebook".
+- When a CO names a tool (e.g. Git), make sure a lab heading in the print draft covers it.
 - Course codes must follow the `CSE XYZZ` numbering convention.
 
 ## Working With the Files
