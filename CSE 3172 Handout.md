@@ -25,8 +25,8 @@ This laboratory course introduces cross-platform mobile application development 
 
 | CO No. | CO Statement | Corresponding PO | Domain / Level of Learning Taxonomy | Delivery Methods & Activities | Assessment Tools |
 |--------|-------------|------------------|--------------------------------------|-------------------------------|-----------------|
-| CO1 | To **set up** React Native / Expo projects and mobile UIs using core components and Flexbox layouts | Modern Tool Usage (PO5) | Psychomotor domain – Level 3 | ☐ Lecture Note ☒ Text Book ☐ Audio/Video ☒ Web Material ☒ Lab Manual | ☒ CA ☒ Final Exam ☐ Assignment ☐ Notebook ☐ Presentation |
-| CO2 | To **construct** multi-screen mobile applications using React Navigation and device APIs | Modern Tool Usage (PO5) | Psychomotor domain – Level 4 | ☐ Lecture Note ☒ Text Book ☐ Audio/Video ☒ Web Material ☒ Lab Manual | ☒ CA ☒ Final Exam ☒ Assignment ☐ Notebook ☐ Presentation |
+| CO1 | To **use** React Native / Expo, core components, and Flexbox layouts to build mobile UIs | Modern Tool Usage (PO5) | Cognitive domain – Level 3 | ☐ Lecture Note ☒ Text Book ☐ Audio/Video ☒ Web Material ☒ Lab Manual | ☒ CA ☒ Final Exam ☐ Assignment ☐ Notebook ☐ Presentation |
+| CO2 | To **construct** multi-screen mobile applications using React Navigation and device APIs | Modern Tool Usage (PO5) | Cognitive domain – Level 6 | ☐ Lecture Note ☒ Text Book ☐ Audio/Video ☒ Web Material ☒ Lab Manual | ☒ CA ☒ Final Exam ☒ Assignment ☐ Notebook ☐ Presentation |
 | CO3 | To **develop** a data-driven React Native application using the Fetch API and EAS Build | Design/Development of Solutions (PO3) | Cognitive domain – Level 6 | ☐ Lecture Note ☒ Text Book ☐ Audio/Video ☒ Web Material ☒ Lab Manual | ☒ CA ☒ Final Exam ☐ Assignment ☐ Notebook ☒ Presentation |
 
 ---
