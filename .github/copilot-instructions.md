@@ -2,19 +2,21 @@
 
 ## Repository Purpose
 
-This repository contains course syllabus documents for a Computer Science & Engineering (CSE) undergraduate program. Each course has a printed final draft (`*_U.docx`) and a detailed markdown copy handed out in class.
+This repository contains course syllabus documents for a Computer Science & Engineering (CSE) undergraduate program. Each course has a printed final draft (`*_U.docx`), a print markdown copy that mirrors it, and a detailed markdown handout used in class.
 
 ## Courses
 
-| Course | Title | Year/Semester | Type | Final draft (print) | Markdown (in-class handout) |
-|--------|-------|---------------|------|---------------------|-----------------------------|
-| CSE 2232 | User Interface Development Lab | Year 2, Sem 2 | Lab | `36-CSE 2232_U.docx` | `CSE 2232 (Revised).md` |
-| CSE 3172 | Mobile Application Development Lab | Year 3, Sem 1 | Lab | `48-CSE 3172_U.docx` | `CSE 3172 (Revised).md` |
-| CSE 3251 | Web Engineering | Year 3, Sem 2 | Theory | `57-CSE 3251_U.docx` | `CSE 3251 (Printed Syllabus).md`, `CSE 3251 (Revised).md` |
-| CSE 3252 | Web Engineering Lab | Year 3, Sem 2 | Lab | `58-CSE 3252_U.docx` | `CSE 3252 (Revised).md` |
+| Course | Title | Year/Semester | Type | Final draft (print) | Print markdown | Handout markdown (detailed) |
+|--------|-------|---------------|------|---------------------|----------------|-----------------------------|
+| CSE 2232 | User Interface Development Lab | Year 2, Sem 2 | Lab | `36-CSE 2232_U.docx` | `CSE 2232 (Printed Syllabus).md` | `CSE 2232 (Revised).md` |
+| CSE 3172 | Mobile Application Development Lab | Year 3, Sem 1 | Lab | `48-CSE 3172_U.docx` | `CSE 3172 (Printed Syllabus).md` | `CSE 3172 (Revised).md` |
+| CSE 3251 | Web Engineering | Year 3, Sem 2 | Theory | `57-CSE 3251_U.docx` | `CSE 3251 (Printed Syllabus).md` | `CSE 3251 (Revised).md` |
+| CSE 3252 | Web Engineering Lab | Year 3, Sem 2 | Lab | `58-CSE 3252_U.docx` | `CSE 3252 (Printed Syllabus).md` | `CSE 3252 (Revised).md` |
 
 - The `*_U.docx` final drafts are authoritative. They are condensed for printing: lab contents list headings only, and there are no Recommended Resources.
-- The markdown copies keep the full detail: lab bullets, capstone requirements, and Recommended Resources.
+- Each course has two markdown copies:
+  - `(Printed Syllabus).md` must match the `_U.docx` draft exactly: same text, checkboxes, and marks.
+  - `(Revised).md` is the detailed in-class handout, with lab bullets, weekly breakdowns, capstone requirements, and Recommended Resources. Its CO table must match the draft.
 - `CSE XXXX.docx` files are the original, pre-revision syllabi. `output/` holds generated `.docx`/`.pdf` renders of the markdown copies.
 - `BAETE_CO_PO_Taxonomy level.docx` is the reference for POs and taxonomy levels.
 
@@ -60,7 +62,7 @@ CSE 1222 (OOP Lab)
 ## When Editing or Adding Syllabi
 
 - Maintain the standard section order described above.
-- Edit the `*_U.docx` final drafts text-only (no formatting changes), and keep the markdown copies aligned on COs, POs, levels, and marks.
+- Edit the `*_U.docx` final drafts text-only (no formatting changes). Mirror every draft change in its `(Printed Syllabus).md`, and keep the `(Revised).md` handout's CO table and marks aligned.
 - CO numbering starts at CO1 and each CO must reference a Program Outcome (PO1–PO12).
 - Follow the BAETE taxonomy:
   - Use one action verb per CO, and make the stated level match that verb.
