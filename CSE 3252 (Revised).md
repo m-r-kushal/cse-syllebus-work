@@ -60,38 +60,33 @@ Students will be assessed on the basis of their overall performance across all l
 - Request validation, JSON responses, error handling, and API testing with Postman
 - Model relationships and relational CRUD operations
 
-### Lab 4 — Alternative Backend Framework / Comparative Implementation
-- Implement the same or a similar backend module in an alternative server-side framework if taught during the semester
-- Compare routing, middleware, validation, ORM / query builder usage, and project structure
-- Explore similarities and differences between backend framework workflows
-
-### Lab 5 — Authentication and Authorization
+### Lab 4 — Authentication and Authorization
 - User registration, login, logout, password hashing, protected routes
 - Token/session-based authentication concepts in the chosen backend framework
 - Role-based access and route protection for admin/user features
 
-### Lab 6 — React Frontend Integration
+### Lab 5 — React Frontend Integration
 - Connect React components to backend APIs using Fetch or Axios
 - Form submission, loading states, validation messages, and error handling
 - React Router integration with public and protected pages
 
-### Lab 7 — Full-Stack CRUD Module
+### Lab 6 — Full-Stack CRUD Module
 - Build a complete CRUD module with React frontend and backend API
 - Search, filter, pagination, and relational data display
 - Keep frontend state synchronized with server updates
 
-### Lab 8 — File Uploads, Security, and Validation
+### Lab 7 — File Uploads, Security, and Validation
 - File/image upload workflow and storage handling
 - Input validation and sanitisation at frontend and backend levels
 - Basic lab-level security practices: authentication checks, protected resources, and secure error handling
 
-### Lab 9 — Testing, Debugging, and API Documentation
+### Lab 8 — Testing, Debugging, and API Documentation
 - Create Postman collections for endpoint testing
 - Basic automated API tests / request validation checks
 - Debugging with browser DevTools, backend logs, and framework debugging tools
 - Prepare API usage documentation for the final project
 
-### Lab 10 — Docker and Capstone Full-Stack Project
+### Lab 9 — Docker and Capstone Full-Stack Project
 - Dockerise the application stack using containers for frontend, backend, and database
 - Use Docker Compose for local development and service orchestration
 - Final project: develop and demonstrate a secure full-stack web application using React frontend and the selected backend framework
@@ -103,6 +98,11 @@ Students will be assessed on the basis of their overall performance across all l
 - Validation and error handling
 - Postman collection / API documentation
 - Docker-based local setup
+
+### Optional Extension — Alternative Backend Framework / Comparative Implementation
+- Implement the same or a similar backend module in an alternative server-side framework if taught during the semester
+- Compare routing, middleware, validation, ORM / query builder usage, and project structure
+- Explore similarities and differences between backend framework workflows
 
 ---
 
